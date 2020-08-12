@@ -9,11 +9,50 @@
 </head>
 <body>
   <div class="container">
-    </h1>Please Complete This User Survey</h1>
+    <div class="jumbotron text-center">
+      <h1>Please Complete This User Survey</h1>
+      <h2>A survey for McDonald's</h2>
+    </div>
     <form id="formOne">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input id="name" class="form-control" type="text">
+      </div>
       <div class="form-group">
         <label for="born">Date of birth:</label>
         <input id="born" class="form-control" type="date">
+      </div>
+      <div class="form-group">
+        <label for="food">Preferred food</label>
+        <select class="form-control" id="food">
+          <option>Italian</option>
+          <option>Mexican</option>
+          <option>Chinese</option>
+          <option>Indian</option>
+        </select>
+        <label for="music">Preferred Music</label>  
+        <div class="radio">
+          <label>
+            <input type="radio" name="music" value="Rock" checked>
+            Rock
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="music" value="Rap">
+            Rap
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="music" value="Jazz">
+            Jazz
+          </label>
+        </div>
+        <div class="form-group">
+          <label for="color">What is your favorite color?</label>
+          <input id="color" class="form-control" type="color">
+        </div>
       </div>
       
       
